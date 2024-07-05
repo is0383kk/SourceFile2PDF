@@ -1,4 +1,4 @@
-#File2PDFTool  
+# File2PDFTool  
 指定したフォルダ内のファイルをPDFに変換するPythonスクリプト  
 
 |プログラム名|説明|
