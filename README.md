@@ -28,6 +28,8 @@ python -m pip install fpdf2
 # Appendix
 [Tutorial in English - fpdf2](https://py-pdf.github.io/fpdf2/Tutorial.html)
 
+---
+
 # File2PDFTool  
 指定したフォルダ内のファイルをPDFに変換するPythonスクリプトです。  
 ※デフォルトではカレントディレクトリ内のファイル群が対象です  
