@@ -24,3 +24,7 @@
 ```bash
 python -m pip install fpdf2    
 ```
+# Appendix
+
+[https://py-pdf.github.io/fpdf2/Tutorial.html](Tutorial in English - fpdf2)
+https://py-pdf.github.io/fpdf2/Tutorial-ja.html
