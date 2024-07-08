@@ -18,4 +18,4 @@
   - `os`
   - `win32com.client`
   - `pandas`：`2.2.2`
-  - `fpdf`：`1.7.2`
+  - `fpdf2`：`2.7.9`
