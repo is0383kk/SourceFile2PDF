@@ -13,12 +13,13 @@ def excel_to_pdf(excel_path, pdf_path):
     try:
         workbook.ExportAsFixedFormat(0, pdf_path)
         print(f"Success：{excel_path} => {pdf_path}")
+        workbook.Close()
     except Exception as e:
         print(f"Failed：{excel_path}")
 
 def convert_all_excel_to_pdf(folder):
     for filename in os.listdir(folder):
-        if filename.endswith(".xlsx") or filename.endswith(".xls"):
+        if filename.endswith(".xlsx") or filename.endswith(".xlsm") or filename.endswith(".xls"):
             excel_path = os.path.join(folder, filename)
             file_name = os.path.basename(excel_path)
             pdf_name = os.path.splitext(file_name)[0] + ".pdf"
