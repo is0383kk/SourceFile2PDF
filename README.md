@@ -20,3 +20,7 @@
   - `win32com.client`
   - `pandas`：`2.2.2`
   - `fpdf2`：`2.7.9`
+※以下のようにバージョン2系を明示的に指定してインストールしてください。
+```bash
+python -m pip install fpdf2    
+```
