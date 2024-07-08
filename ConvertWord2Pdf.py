@@ -12,6 +12,7 @@ def word_to_pdf(word_path, pdf_path):
     try:
         doc.SaveAs(pdf_path, FileFormat=17)
         print(f"Success：{word_path} => {pdf_path}")
+        doc.Close()
     except Exception as e:
         print(f"Failed：{word_path}")
 
