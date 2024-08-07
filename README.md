@@ -7,6 +7,7 @@ A Python script to convert files in a specified folder to PDF.
 | ConvertSrc2Pdf.py      | Convert all Source Code in the folder to PDF          |
 | ConvertExcel2Pdf.py    | Convert all Excel files in the folder to PDF          |
 | ConvertWord2Pdf.py     | Convert all Word files in the folder to PDF           |
+
 ※ Files with "_jp" in their names support Japanese text.
 
 ## Requirements  
