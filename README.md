@@ -11,11 +11,11 @@ A Python script to convert files in a specified folder to PDF.
 
 ## Usage
 1. Place the converted source code as follows:  
-SourceFile2PDFTool
-|- ConvertSrc2Pdf.py
-|- ipaexg.ttf
-|- Sample001.java
-|- Sample002.java
+SourceFile2PDFTool  
+|- ConvertSrc2Pdf.py  
+|- ipaexg.ttf  
+|- Sample001.java  
+|- Sample002.java  
 
 2. Convert Java files to PDF using ```ConvertSrc2Pdf.py```  
 
