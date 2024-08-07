@@ -4,7 +4,7 @@ A Python script to convert files in a specified folder to PDF.
 
 | Program Name           | Description                                           |
 |------------------------|-------------------------------------------------------|
-| ConvertSrc2Pdf.py      | Convert all Source Code in the folder to PDF          |
+| ConvertSrc2Pdf(_jp).py      | Convert all Source Code in the folder to PDF          |
 | ConvertExcel2Pdf.py    | Convert all Excel files in the folder to PDF          |
 | ConvertWord2Pdf.py     | Convert all Word files in the folder to PDF           |
 
@@ -34,7 +34,7 @@ python -m pip install fpdf2
 
 |プログラム名|説明|
 |---|---|
-|ConvertSrc2Pdf.py      | フォルダ内のソースコードをまとめてPDFに変換する|
+|ConvertSrc2Pdf(_jp).py      | フォルダ内のソースコードをまとめてPDFに変換する|
 |ConvertExcel2Pdf.py|フォルダ内のExcelファイルをまとめてPDFに変換する|
 |ConvertWord2Pdf.py|フォルダ内のWordファイルをまとめてPDFに変換する|
   
