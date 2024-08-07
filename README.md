@@ -72,10 +72,10 @@ SourceFile2PDFTool
 　|- Sample001.java  
 　|- Sample002.java  
 
-２．```ConvertSrc2Pdf.py```を実行する  
+２．```ConvertSrc2Pdf_jp.py```を実行する  
 
 ```powershell
-$ python ConvertSrc2Pdf.py .java
+$ python ConvertSrc2Pdf_jp.py .java
 ```
 
 ３．以下フォルダ構造でPDFが生成される  
