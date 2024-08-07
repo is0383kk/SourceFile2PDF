@@ -4,12 +4,9 @@ A Python script to convert files in a specified folder to PDF.
 
 | Program Name           | Description                                           |
 |------------------------|-------------------------------------------------------|
+| ConvertSrc2Pdf.py      | Convert all Source Code in the folder to PDF          |
 | ConvertExcel2Pdf.py    | Convert all Excel files in the folder to PDF          |
 | ConvertWord2Pdf.py     | Convert all Word files in the folder to PDF           |
-| ConvertTxt2Pdf.py      | Convert all text files in the folder to PDF           |
-| ConvertJava2Pdf.py     | Convert all Java files in the folder to PDF           |
-| ConvertHtml2Pdf.py     | Convert all HTML files in the folder to PDF           |
-  
 ※ Files with "_jp" in their names support Japanese text.
 
 ## Requirements  
@@ -36,11 +33,9 @@ python -m pip install fpdf2
 
 |プログラム名|説明|
 |---|---|
+|ConvertSrc2Pdf.py      | フォルダ内のソースコードをまとめてPDFに変換する|
 |ConvertExcel2Pdf.py|フォルダ内のExcelファイルをまとめてPDFに変換する|
 |ConvertWord2Pdf.py|フォルダ内のWordファイルをまとめてPDFに変換する|
-|ConvertTxt2Pdf.py|フォルダ内のテキストファイルをまとめてPDFに変換する|
-|ConvertJava2Pdf.py|フォルダ内のJavaファイルをまとめてPDFに変換する|
-|ConvertHtml2Pdf.py|フォルダ内のJavaファイルをまとめてPDFに変換する|
   
 ※「_jp」と付いているファイルは日本語テキストに対応しています。  
 
