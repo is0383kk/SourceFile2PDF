@@ -37,8 +37,9 @@ SourceFile2PDF
 　|- ipaexg.ttf  
 　|- Sample001.java  
 　|- Sample002.java  
-　|- Sample001.pdf  
-　|- Sample002.pdf  
+　|- pdf  
+　　　|- Sample001.pdf  
+　　　|- Sample002.pdf  
 
 If you get any of the following errors, use ```ConvertSrc2Pdf_jp.py```  
 ```fpdf.errors.FPDFUnicodeEncodingException```
@@ -79,8 +80,9 @@ SourceFile2PDF
 　|- ConvertSrc2Pdf.py  
 　|- ConvertSrc2Pdf_jp.py  
 　|- ipaexg.ttf  
-　|- Sample001.java  
-　|- Sample002.java  
+　|- PDF  
+　　　|- Sample001.pdf  
+　　　|- Sample002.pdf  
 
 ２．```ConvertSrc2Pdf_jp.py```を実行する  
 
