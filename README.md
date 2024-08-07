@@ -14,8 +14,8 @@ Environment information confirmed to work:
 - Python 3.11.3
 - The following Python packages:
   - `os`
+  - `sys`  
   - `win32com.client`
-  - `pandas`: `2.2.2`
   - `fpdf2`: `2.7.9`
 ※ Please explicitly specify version 2.x and install using the following command:
 ```bash
@@ -44,8 +44,8 @@ python -m pip install fpdf2
 - Python 3.11.3
 - 以下のPythonパッケージ
   - `os`
+  - `sys`
   - `win32com.client`
-  - `pandas`：`2.2.2`
   - `fpdf2`：`2.7.9`
 ※以下のようにバージョン2系を明示的に指定してインストールしてください。
 ```bash
