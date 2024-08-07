@@ -8,12 +8,12 @@ class PDF(FPDF):
     
     '''
     def header(self):
-        self.set_font('IPAexGothic', '', 10)
+        self.set_font('helvetica', '', 10)
         self.cell(0, 10, 'src to PDF Converter', 0, 1, 'C')
 
     def footer(self):
         self.set_y(-15)
-        self.set_font('IPAexGothic', '', 8)
+        self.set_font('helvetica', '', 8)
         self.cell(0, 10, f'Page {self.page_no()}', 0, 0, 'C')
     '''
 
@@ -23,8 +23,7 @@ def src_to_pdf(src_path, pdf_path):
         src_content = src_file.read()
 
     pdf = PDF()
-    pdf.add_font('IPAexGothic', '', os.getcwd()+'/ipaexg.ttf')
-    pdf.set_font('IPAexGothic', size=10)
+    pdf.set_font('helvetica', size=10)
     pdf.add_page()
     pdf.set_auto_page_break(auto=True, margin=15)
 
