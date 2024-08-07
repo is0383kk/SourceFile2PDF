@@ -14,6 +14,7 @@ A Python script to convert files in a specified folder to PDF.
 
 SourceFile2PDFTool  
 　|- ConvertSrc2Pdf.py  
+　|- ConvertSrc2Pdf_jp.py  
 　|- ipaexg.ttf  
 　|- Sample001.java  
 　|- Sample002.java  
@@ -23,16 +24,24 @@ SourceFile2PDFTool
 ```powershell
 $ python ConvertSrc2Pdf.py .java
 ```
+or  
+```powershell
+$ python ConvertSrc2Pdf_jp.py .java
+```
 
 ３．PDF is generated
 
 SourceFile2PDFTool  
 　|- ConvertSrc2Pdf.py  
+　|- ConvertSrc2Pdf_jp.py  
 　|- ipaexg.ttf  
 　|- Sample001.java  
 　|- Sample002.java  
 　|- Sample001.pdf  
 　|- Sample002.pdf  
+
+If you get any of the following errors, use ```ConvertSrc2Pdf_jp.py```  
+```fpdf.errors.FPDFUnicodeEncodingException```
 
 ## Requirements  
 Environment information confirmed to work:  
@@ -63,11 +72,12 @@ python -m pip install fpdf2
 |ConvertExcel2Pdf.py|フォルダ内のExcelファイルをまとめてPDFに変換する|
 |ConvertWord2Pdf.py|フォルダ内のWordファイルをまとめてPDFに変換する|
   
-## 使い方：ConvertSrc2Pdf.py  
+## 使い方：ConvertSrc2Pdf_jp.py  
 １．以下フォルダ構造になるようにPDF変換したいファイルを配置する（Javaファイルの例）:  
 
 SourceFile2PDFTool  
 　|- ConvertSrc2Pdf.py  
+　|- ConvertSrc2Pdf_jp.py  
 　|- ipaexg.ttf  
 　|- Sample001.java  
 　|- Sample002.java  
@@ -81,12 +91,16 @@ $ python ConvertSrc2Pdf_jp.py .java
 ３．以下フォルダ構造でPDFが生成される  
 
 SourceFile2PDFTool  
-　|- ConvertSrc2Pdf.py  
+　|- ConvertSrc2Pdf.py
+　|- ConvertSrc2Pdf_jp.py  
 　|- ipaexg.ttf  
 　|- Sample001.java  
 　|- Sample002.java  
 　|- Sample001.pdf  
 　|- Sample002.pdf  
+
+もし以下エラーが出る場合は、```ConvertSrc2Pdf_jp.py```を使用してください
+```fpdf.errors.FPDFUnicodeEncodingException```
 
 ## 必要条件  
 以下動作確認済みの環境情報  
