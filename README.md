@@ -99,7 +99,7 @@ SourceFile2PDFTool
 　|- Sample001.pdf  
 　|- Sample002.pdf  
 
-もし以下エラーが出る場合は、```ConvertSrc2Pdf_jp.py```を使用してください
+もし以下エラーが出る場合は、```ConvertSrc2Pdf_jp.py```を使用してください  
 ```fpdf.errors.FPDFUnicodeEncodingException```
 
 ## 必要条件  
