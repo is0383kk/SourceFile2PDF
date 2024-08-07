@@ -13,10 +13,10 @@ A Python script to convert files in a specified folder to PDF.
 1. Place the converted source code as follows:  
 
 SourceFile2PDFTool  
-|- ConvertSrc2Pdf.py  
-|- ipaexg.ttf  
-|- Sample001.java  
-|- Sample002.java  
+ |- ConvertSrc2Pdf.py  
+ |- ipaexg.ttf  
+ |- Sample001.java  
+ |- Sample002.java  
 
 2. Convert Java files to PDF using ```ConvertSrc2Pdf.py```  
 
@@ -27,12 +27,12 @@ $ python ConvertSrc2Pdf.py .java
 3. PDF is generated
 
 SourceFile2PDFTool  
-|- ConvertSrc2Pdf.py  
-|- ipaexg.ttf  
-|- Sample001.java  
-|- Sample002.java  
-|- Sample001.pdf  
-|- Sample002.pdf  
+ |- ConvertSrc2Pdf.py  
+ |- ipaexg.ttf  
+ |- Sample001.java  
+ |- Sample002.java  
+ |- Sample001.pdf  
+ |- Sample002.pdf  
 
 ## Requirements  
 Environment information confirmed to work:  
