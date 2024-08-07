@@ -1,6 +1,7 @@
 # File2PDFTool  
 A Python script to convert files in a specified folder to PDF.  
-※ By default, the files in the current directory are targeted.  
+※ By default, the files in the current directory are targeted.   
+※ Files with "_jp" in their names support Japanese text.  
 
 | Program Name           | Description                                           |
 |------------------------|-------------------------------------------------------|
@@ -8,7 +9,28 @@ A Python script to convert files in a specified folder to PDF.
 | ConvertExcel2Pdf.py    | Convert all Excel files in the folder to PDF          |
 | ConvertWord2Pdf.py     | Convert all Word files in the folder to PDF           |
 
-※ Files with "_jp" in their names support Japanese text.
+## Usage
+1. Place the converted source code as follows:  
+SourceFile2PDFTool
+|- ConvertSrc2Pdf.py
+|- ipaexg.ttf
+|- Sample001.java
+|- Sample002.java
+
+2. Convert Java files to PDF using ```ConvertSrc2Pdf.py```  
+
+```powershell
+$ python ConvertSrc2Pdf.py .java
+```
+
+3. PDF is generated
+SourceFile2PDFTool
+|- ConvertSrc2Pdf.py
+|- ipaexg.ttf
+|- Sample001.java
+|- Sample002.java
+|- Sample001.pdf
+|- Sample002.pdf
 
 ## Requirements  
 Environment information confirmed to work:  
@@ -30,7 +52,8 @@ python -m pip install fpdf2
 
 # File2PDFTool  
 指定したフォルダ内のファイルをPDFに変換するPythonスクリプトです。  
-※デフォルトではカレントディレクトリ内のファイル群が対象です  
+※デフォルトではカレントディレクトリ内のファイル群が対象です。  
+※「_jp」と付いているファイルは日本語テキストに対応しています。  
 
 |プログラム名|説明|
 |---|---|
@@ -38,7 +61,7 @@ python -m pip install fpdf2
 |ConvertExcel2Pdf.py|フォルダ内のExcelファイルをまとめてPDFに変換する|
 |ConvertWord2Pdf.py|フォルダ内のWordファイルをまとめてPDFに変換する|
   
-※「_jp」と付いているファイルは日本語テキストに対応しています。  
+
 
 ## 必要条件  
 以下動作確認済みの環境情報  
