@@ -12,7 +12,7 @@ A Python script to convert files in a specified folder to PDF.
 ## Usage：ConvertSrc2Pdf.py  
 １．Place the converted source code as follows:  
 
-SourceFile2PDFTool  
+SourceFile2PDF  
 　|- ConvertSrc2Pdf.py  
 　|- ConvertSrc2Pdf_jp.py  
 　|- ipaexg.ttf  
@@ -31,7 +31,7 @@ $ python ConvertSrc2Pdf_jp.py .java
 
 ３．PDF is generated
 
-SourceFile2PDFTool  
+SourceFile2PDF  
 　|- ConvertSrc2Pdf.py  
 　|- ConvertSrc2Pdf_jp.py  
 　|- ipaexg.ttf  
@@ -75,7 +75,7 @@ python -m pip install fpdf2
 ## 使い方：ConvertSrc2Pdf_jp.py  
 １．以下フォルダ構造になるようにPDF変換したいファイルを配置する（Javaファイルの例）:  
 
-SourceFile2PDFTool  
+SourceFile2PDF  
 　|- ConvertSrc2Pdf.py  
 　|- ConvertSrc2Pdf_jp.py  
 　|- ipaexg.ttf  
@@ -90,7 +90,7 @@ $ python ConvertSrc2Pdf_jp.py .java
 
 ３．以下フォルダ構造でPDFが生成される  
 
-SourceFile2PDFTool  
+SourceFile2PDF  
 　|- ConvertSrc2Pdf.py
 　|- ConvertSrc2Pdf_jp.py  
 　|- ipaexg.ttf  
