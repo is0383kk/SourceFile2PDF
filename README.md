@@ -1,4 +1,4 @@
-# SourceFile2PDFTool  
+# SourceFile2PDF  
 A Python script to convert files in a specified folder to PDF.  
 ※ By default, the files in the current directory are targeted.   
 ※ Files with "_jp" in their names support Japanese text.  
@@ -61,7 +61,7 @@ python -m pip install fpdf2
 
 ---
 
-# SourceFile2PDFTool  
+# SourceFile2PDF  
 指定したフォルダ内のファイルをPDFに変換するPythonスクリプトです。  
 ※デフォルトではカレントディレクトリ内のファイル群が対象です。  
 ※「_jp」と付いているファイルは日本語テキストに対応しています。  
